@@ -1,6 +1,6 @@
 harnessApiVersion: '1.0'
 type: BLUE_GREEN
-envName: test
+envName: prod
 failureStrategies:
 - executionScope: WORKFLOW
   failureTypes:
