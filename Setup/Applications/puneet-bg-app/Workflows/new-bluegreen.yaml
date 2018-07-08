@@ -17,7 +17,7 @@ phases:
 - type: KUBERNETES
   computeProviderName: harness-exploration
   daemonSet: false
-  infraMappingName: us-west1-a_harness-test -GCP_Kubernetes--Google Cloud Platform- harness-exploration- default
+  infraMappingName: myinframap
   name: Phase 1
   phaseSteps:
   - type: CONTAINER_SETUP
@@ -76,7 +76,7 @@ rollbackPhases:
 - type: KUBERNETES
   computeProviderName: harness-exploration
   daemonSet: false
-  infraMappingName: us-west1-a_harness-test -GCP_Kubernetes--Google Cloud Platform- harness-exploration- default
+  infraMappingName: myinframap
   name: Rollback Phase 1
   phaseNameForRollback: Phase 1
   phaseSteps:
