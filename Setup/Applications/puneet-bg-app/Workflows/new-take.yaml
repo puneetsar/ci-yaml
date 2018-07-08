@@ -57,6 +57,7 @@ phases:
     stepsInParallel: false
   - type: VERIFY_SERVICE
     name: Verify Stage Service
+    stepsInParallel: false
   - type: ROUTE_UPDATE
     name: Route Update
     steps:
