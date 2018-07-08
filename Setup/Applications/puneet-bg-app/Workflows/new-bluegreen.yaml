@@ -105,6 +105,6 @@ rollbackPhases:
     name: Wrap Up
     stepsInParallel: false
   provisionNodes: false
-  serviceName: test-newrelic
+  serviceName: bg-test
   statefulSet: false
 templatized: false
