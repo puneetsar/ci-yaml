@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: SERVICE
+artifactType: IIS
+configVariables:
+- name: test
+  value: amazonkms:8MTvFw1eTMKWaI56AoePAQ
+  valueType: ENCRYPTED_TEXT
