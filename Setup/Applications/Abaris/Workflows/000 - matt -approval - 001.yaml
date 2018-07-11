@@ -12,11 +12,6 @@ phases:
   phaseSteps:
   - type: PREPARE_STEPS
     name: Prepare Steps
-    steps:
-    - type: APPROVAL
-      name: Approval
-      properties:
-        timeoutMillis: 300000
     stepsInParallel: false
   - type: COLLECT_ARTIFACT
     name: Collect Artifact
