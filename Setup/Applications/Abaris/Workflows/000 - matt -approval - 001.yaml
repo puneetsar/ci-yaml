@@ -18,7 +18,7 @@ phases:
       properties:
         timeoutMillis: 26640000
         userGroup:
-        - '6'
+        - MGqU-atDREKdluwdnO3C9w
     stepsInParallel: false
   - type: COLLECT_ARTIFACT
     name: Collect Artifact
