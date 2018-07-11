@@ -17,6 +17,8 @@ phases:
       name: Approval
       properties:
         timeoutMillis: 3240000
+        userGroup:
+        - '6'
     stepsInParallel: false
   - type: COLLECT_ARTIFACT
     name: Collect Artifact
