@@ -1,0 +1,4 @@
+harnessApiVersion: '1.0'
+type: ENVIRONMENT
+description: app1 non prod
+environmentType: NON_PROD
