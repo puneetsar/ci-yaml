@@ -16,7 +16,7 @@ phases:
     - type: APPROVAL
       name: Approval
       properties:
-        timeoutMillis: 26640000
+        timeoutMillis: 19980000
         userGroup:
         - MGqU-atDREKdluwdnO3C9w
     stepsInParallel: false
