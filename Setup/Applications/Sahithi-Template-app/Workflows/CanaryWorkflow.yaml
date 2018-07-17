@@ -87,6 +87,24 @@ phases:
   provisionNodes: false
   serviceName: Catalog
   statefulSet: false
+  templateExpressions:
+  - expression: ${Service}
+    fieldName: serviceId
+    metadata:
+    - name: artifactType
+      value: WAR
+    - name: relatedField
+      value: ${ServiceInfra_SSH}
+    - name: entityType
+      value: SERVICE
+  - expression: ${ServiceInfra_SSH}
+    fieldName: infraMappingId
+    metadata:
+    - name: artifactType
+      value: WAR
+    - name: relatedField
+    - name: entityType
+      value: INFRASTRUCTURE_MAPPING
 preDeploymentSteps:
 - type: ARTIFACT_CHECK
   name: Artifact Check
@@ -168,4 +186,33 @@ rollbackPhases:
   provisionNodes: false
   serviceName: Catalog
   statefulSet: false
-templatized: false
+  templateExpressions:
+  - expression: ${Service}
+    fieldName: serviceId
+    metadata:
+    - name: artifactType
+      value: WAR
+    - name: relatedField
+      value: ${ServiceInfra_SSH}
+    - name: entityType
+      value: SERVICE
+  - expression: ${ServiceInfra_SSH}
+    fieldName: infraMappingId
+    metadata:
+    - name: artifactType
+      value: WAR
+    - name: relatedField
+    - name: entityType
+      value: INFRASTRUCTURE_MAPPING
+templatized: true
+userVariables:
+- type: ENTITY
+  description: Variable for Service entity in Rollback Phase 2
+  fixed: false
+  mandatory: true
+  name: Service
+- type: ENTITY
+  description: Variable for Service Infra-structure entity in Rollback Phase 2
+  fixed: false
+  mandatory: true
+  name: ServiceInfra_SSH
