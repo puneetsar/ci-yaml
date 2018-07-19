@@ -1,0 +1,48 @@
+harnessApiVersion: '1.0'
+type: ECS
+advancedConfig: |-
+  # Enter your Task Definition JSON spec below.
+  #
+  # Placeholders:
+  #
+  # Required: ${DOCKER_IMAGE_NAME}
+  #   - Replaced with the Docker image name and tag
+  #
+  # Optional: ${CONTAINER_NAME}
+  #   - Replaced with a container name based on the image name
+  #
+  # Required For Fargate: ${EXECUTION_ROLE}
+  #   - Replaced with execution role arn
+  #
+  # Harness will set the task family of the task definition.
+  #
+  # Service variables will be merged into environment
+  # variables for all containers, overriding values if
+  # the name is the same.
+  #
+  # ---
+  {
+    "containerDefinitions" : [ {
+      "name" : "${CONTAINER_NAME}",
+      "image" : "${DOCKER_IMAGE_NAME}",
+      "memory" : 1024,
+      "links" : [ ],
+      "portMappings" : [ ],
+      "entryPoint" : [ ],
+      "command" : [ ],
+      "environment" : [ ],
+      "mountPoints" : [ ],
+      "volumesFrom" : [ ],
+      "dnsServers" : [ ],
+      "dnsSearchDomains" : [ ],
+      "extraHosts" : [ ],
+      "dockerSecurityOptions" : [ ],
+      "ulimits" : [ ]
+    } ],
+    "executionRoleArn" : "${EXECUTION_ROLE}",
+    "volumes" : [ ],
+    "requiresAttributes" : [ ],
+    "placementConstraints" : [ ],
+    "compatibilities" : [ ],
+    "requiresCompatibilities" : [ ]
+  }
