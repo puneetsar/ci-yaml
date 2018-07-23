@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: STOP
+commandUnitType: COMMAND
+commandUnits:
+- command: docker ps -a -q --filter ancestor=$IMAGE | xargs docker stop
+  commandUnitType: DOCKER_STOP
+  deploymentType: SSH
+  name: Docker Stop
+  scriptType: BASH
+targetToAllEnv: true
