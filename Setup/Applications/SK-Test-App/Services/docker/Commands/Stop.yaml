@@ -1,4 +1,4 @@
 harnessApiVersion: '1.0'
-type: OTHER
+type: STOP
 commandUnitType: COMMAND
 targetToAllEnv: true
