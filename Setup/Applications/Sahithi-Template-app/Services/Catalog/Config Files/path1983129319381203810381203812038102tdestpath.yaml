@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: CONFIG_FILE
+checksumType: MD5
+description: testdesc
+encrypted: true
+fileName: safeharness:jJjHhvliTF2lTFxsBPsmVg
+targetFilePath: path1983129319381203810381203812038102tdestpath
+targetToAllEnv: true
