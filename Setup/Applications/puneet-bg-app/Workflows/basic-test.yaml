@@ -25,6 +25,8 @@ phases:
     steps:
     - type: KUBERNETES_SETUP
       name: Kubernetes Service Setup
+      properties:
+        replicationControllerName: ${app.name}.${service.name}.${env.name}
     stepsInParallel: false
   - type: CONTAINER_DEPLOY
     name: Deploy Containers
