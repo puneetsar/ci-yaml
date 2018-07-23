@@ -1,0 +1,12 @@
+harnessApiVersion: '1.0'
+type: ECS
+containerDefinition:
+  commands:
+  - ''
+  cpu: 12
+  logConfiguration: {}
+  memory: 12
+  name: DEFAULT_NAME
+  portMappings:
+  - hostPort: 90
+  - {}
