@@ -9,4 +9,3 @@ containerDefinition:
   name: DEFAULT_NAME
   portMappings:
   - hostPort: 90
-  - {}
