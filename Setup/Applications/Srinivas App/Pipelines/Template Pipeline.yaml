@@ -5,13 +5,3 @@ pipelineStages:
   name: Basic Deployment (Workflow Template)
   parallel: false
   workflowName: Basic Deployment
-  workflowVariables:
-  - entityType: ENVIRONMENT
-    name: Environment
-    value: Dev
-  - entityType: SERVICE
-    name: Service
-    value: Todolist
-  - entityType: INFRASTRUCTURE_MAPPING
-    name: ServiceInfra_SSH
-    value: Physical Data Center- physical_data_center -Data Center_SSH-
