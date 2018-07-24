@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+pipelineStages:
+- type: ENV_STATE
+  name: TemplateWrkflowABC (Workflow Template)
+  parallel: false
+  workflowName: TemplateWrkflowABC
+  workflowVariables:
+  - name: test
+    value: '123'
