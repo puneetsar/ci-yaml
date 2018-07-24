@@ -108,3 +108,8 @@ userVariables:
   mandatory: false
   name: test
   value: '123'
+- type: TEXT
+  description: '12'
+  fixed: false
+  mandatory: false
+  name: t12
