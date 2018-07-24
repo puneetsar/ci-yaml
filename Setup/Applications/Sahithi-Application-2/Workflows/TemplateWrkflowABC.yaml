@@ -100,4 +100,11 @@ rollbackPhases:
   provisionNodes: false
   serviceName: orderwar
   statefulSet: false
-templatized: false
+templatized: true
+userVariables:
+- type: TEXT
+  description: '133'
+  fixed: false
+  mandatory: false
+  name: test
+  value: '123'
