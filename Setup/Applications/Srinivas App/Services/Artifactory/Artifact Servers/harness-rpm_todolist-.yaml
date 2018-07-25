@@ -1,7 +1,0 @@
-harnessApiVersion: '1.0'
-type: ARTIFACTORY
-artifactPattern: todolist*
-metadataOnly: false
-repositoryName: harness-rpm
-repositoryType: any
-serverName: Harness Artifactory
