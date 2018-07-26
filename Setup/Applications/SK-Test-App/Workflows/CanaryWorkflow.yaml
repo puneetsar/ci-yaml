@@ -18,4 +18,8 @@ preDeploymentSteps:
   name: Artifact Check
   properties:
     commandName: Artifact Check
+- type: ARTIFACT_CHECK
+  name: Artifact Check
+  properties:
+    commandName: Artifact Check
 templatized: false
