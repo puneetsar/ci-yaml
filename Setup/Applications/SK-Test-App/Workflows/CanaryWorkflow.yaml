@@ -13,4 +13,9 @@ notificationRules:
   executionScope: WORKFLOW
   notificationGroups:
   - Account Administrator
+preDeploymentSteps:
+- type: ARTIFACT_CHECK
+  name: Artifact Check
+  properties:
+    commandName: Artifact Check
 templatized: false
