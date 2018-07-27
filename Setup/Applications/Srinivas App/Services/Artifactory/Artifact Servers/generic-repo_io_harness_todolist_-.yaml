@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: ARTIFACTORY
+artifactPattern: io/harness/todolist/*
+metadataOnly: false
+repositoryName: generic-repo
+repositoryType: any
+serverName: Harness Artifactory
