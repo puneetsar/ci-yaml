@@ -1,6 +1,0 @@
-harnessApiVersion: '1.0'
-type: PIPELINE
-pipelineStages:
-- type: APPROVAL
-  name: Approval 0
-  parallel: false
