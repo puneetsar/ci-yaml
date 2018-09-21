@@ -6,3 +6,6 @@ variableOverrides:
   serviceName: Catalog
   value: test
   valueType: TEXT
+- name: test
+  value: '132'
+  valueType: TEXT
