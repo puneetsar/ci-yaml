@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: DOCKER
+imageName: library/jenkins
+metadataOnly: true
+serverName: index_docker_io_v1_harnesshub
