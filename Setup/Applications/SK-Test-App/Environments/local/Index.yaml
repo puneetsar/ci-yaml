@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: ENVIRONMENT
+environmentType: NON_PROD
+variableOverrides:
+- name: Test
+  serviceName: Catalog
+  value: test
+  valueType: TEXT
