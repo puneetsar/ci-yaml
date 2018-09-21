@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: DOCKER
+password: amazonkms:l51zAB7fTpizR62gt0bQkw
+url: https://index.docker.io/v1/
+username: harnessrd
