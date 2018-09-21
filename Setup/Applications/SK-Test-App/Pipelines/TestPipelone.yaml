@@ -5,3 +5,7 @@ pipelineStages:
   name: BuildWorkfllow (Incomplete)
   parallel: false
   workflowName: BuildWorkfllow
+- type: ENV_STATE
+  name: CanaryWorkflow
+  parallel: false
+  workflowName: CanaryWorkflow
