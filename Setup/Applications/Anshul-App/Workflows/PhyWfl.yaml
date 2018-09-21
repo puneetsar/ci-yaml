@@ -100,4 +100,10 @@ rollbackPhases:
   provisionNodes: false
   serviceName: PhySvc101
   statefulSet: false
-templatized: false
+templatized: true
+userVariables:
+- type: TEXT
+  fixed: false
+  mandatory: false
+  name: ABCVariable
+  value: '123'
