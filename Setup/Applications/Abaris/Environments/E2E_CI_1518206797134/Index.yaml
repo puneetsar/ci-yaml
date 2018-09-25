@@ -1,0 +1,9 @@
+harnessApiVersion: '1.0'
+type: ENVIRONMENT
+description: Environment for CI integration test
+environmentType: PROD
+variableOverrides:
+- name: confi
+  serviceName: Abaris
+  value: '123'
+  valueType: TEXT
