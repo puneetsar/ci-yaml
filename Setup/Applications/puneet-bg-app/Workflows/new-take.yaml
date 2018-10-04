@@ -23,6 +23,12 @@ phases:
   - type: CONTAINER_SETUP
     name: Setup Container
     steps:
+    - type: HTTP
+      name: HTTP
+      properties:
+        method: GET
+        executeWithPreviousSteps: false
+        url: https://google.com
     - type: KUBERNETES_SETUP
       name: Blue/Green Service Setup
       properties:
@@ -43,12 +49,6 @@ phases:
             protocol: TCP
         resizeStrategy: Add new instances first, then downsize old instances
         serviceSteadyStateTimeout: 10
-    - type: HTTP
-      name: HTTP
-      properties:
-        method: GET
-        executeWithPreviousSteps: false
-        url: https://google.com
     stepsInParallel: false
   - type: CONTAINER_DEPLOY
     name: Upgrade Stage Containers
