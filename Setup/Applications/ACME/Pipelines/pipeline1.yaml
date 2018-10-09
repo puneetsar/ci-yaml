@@ -12,3 +12,14 @@ pipelineStages:
   name: EchoWebWorkflow
   parallel: false
   workflowName: EchoWebWorkflow
+- type: ENV_STATE
+  name: Canary (Workflow Template)
+  parallel: false
+  workflowName: Canary
+  workflowVariables:
+  - entityType: ENVIRONMENT
+    name: Environment
+    value: EchoWebEnv
+  - entityType: INFRASTRUCTURE_MAPPING
+    name: ServiceInfra_SSH
+    value: Physical Data Center- Physical_Data_Center_E2E_1518206797134 -Data Center_SSH-
