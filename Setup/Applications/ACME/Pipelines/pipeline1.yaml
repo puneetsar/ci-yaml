@@ -8,3 +8,7 @@ pipelineStages:
   name: multiServiceWorkflow
   parallel: false
   workflowName: multiServiceWorkflow
+- type: ENV_STATE
+  name: EchoWebWorkflow
+  parallel: false
+  workflowName: EchoWebWorkflow
