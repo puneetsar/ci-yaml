@@ -4,3 +4,7 @@ pipelineStages:
 - type: APPROVAL
   name: Approval 0
   parallel: false
+- type: ENV_STATE
+  name: multiServiceWorkflow
+  parallel: false
+  workflowName: multiServiceWorkflow
