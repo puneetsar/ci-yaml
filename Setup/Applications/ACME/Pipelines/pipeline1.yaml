@@ -14,5 +14,5 @@ pipelineStages:
   workflowName: EchoWebWorkflow
 - type: ENV_STATE
   name: Canary
-  parallel: false
+  parallel: true
   workflowName: Canary
