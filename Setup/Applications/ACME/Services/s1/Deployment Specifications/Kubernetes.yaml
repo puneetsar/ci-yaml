@@ -45,31 +45,31 @@ advancedConfig: |
   kind: "Deployment"
   metadata:
     annotations: {}
-    finalizers: 
+    finalizers:
     labels: {}
-    ownerReferences: 
+    ownerReferences:
   spec:
     replicas: 0
     template:
       metadata:
         annotations: {}
-        finalizers: 
+        finalizers:
         labels: {}
-        ownerReferences: 
+        ownerReferences:
       spec:
         containers:
-        - args: 
-          command: 
-          env: 
-          envFrom: 
+        - args:
+          command:
+          env:
+          envFrom:
           image: "${DOCKER_IMAGE_NAME}"
           name: "${CONTAINER_NAME}"
-          ports: 
-          volumeMounts: 
-        hostAliases: 
+          ports:
+          volumeMounts:
+        hostAliases:
         imagePullSecrets:
         - name: "${SECRET_NAME}"
-        initContainers: 
+        initContainers:
         nodeSelector: {}
-        tolerations: 
-        volumes: 
+        tolerations:
+        volumes:
