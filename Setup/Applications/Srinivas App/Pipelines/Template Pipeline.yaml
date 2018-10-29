@@ -5,3 +5,13 @@ pipelineStages:
   name: Basic Deployment (Workflow Template)
   parallel: false
   workflowName: Basic Deployment
+  workflowVariables:
+  - entityType: ENVIRONMENT
+    name: Environment
+    value: Dev
+  - entityType: SERVICE
+    name: Service
+    value: Todolist War
+  - entityType: INFRASTRUCTURE_MAPPING
+    name: ServiceInfra_SSH
+    value: Amazon Web Services- aws -AWS_SSH- us-east-1
