@@ -11,7 +11,7 @@ pipelineStages:
     value: Dev
   - entityType: SERVICE
     name: Service
-    value: Todolist War
+    value: Todolist
   - entityType: INFRASTRUCTURE_MAPPING
     name: ServiceInfra_SSH
-    value: Amazon Web Services- aws -AWS_SSH- us-east-1
+    value: Physical Data Center- physical_data_center -Data Center_SSH-
