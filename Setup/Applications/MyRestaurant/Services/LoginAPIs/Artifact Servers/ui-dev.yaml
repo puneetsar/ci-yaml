@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: JENKINS
+artifactPaths:
+- wingsui.tgz
+jobName: ui-dev
+metadataOnly: false
+serverName: Harness Jenkins

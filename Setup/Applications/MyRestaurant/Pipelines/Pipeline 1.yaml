@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+pipelineStages:
+- type: ENV_STATE
+  name: Step 1
+  parallel: false
+  workflowName: Basic Workflow 1
+- type: APPROVAL
+  name: Approval 1
+  parallel: false
