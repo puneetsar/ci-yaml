@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: JENKINS
+artifactPaths:
+- target/todolist.war
+jobName: todolist-buggy
+metadataOnly: false
+serverName: Harness Jenkins
