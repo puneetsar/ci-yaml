@@ -1,0 +1,25 @@
+harnessApiVersion: '1.0'
+type: START
+commandUnitType: COMMAND
+commandUnits:
+- command: dir
+  commandUnitType: EXEC
+  deploymentType: SSH
+  name: Exec-0
+  scriptType: BASH
+  workingDirectory: 'c:'
+- commandUnitType: SETUP_ENV
+  deploymentType: SSH
+  name: Setup Env-1
+  scriptType: BASH
+- commandUnitType: DOCKER_START
+  deploymentType: SSH
+  name: Docker Start-2
+  scriptType: BASH
+- commandUnitType: COMMAND
+- commandUnitType: SCP
+  deploymentType: SSH
+  destinationDirectoryPath: $WINGS_RUNTIME_PATH
+  name: Copy-4
+  source: ARTIFACTS
+targetToAllEnv: true
