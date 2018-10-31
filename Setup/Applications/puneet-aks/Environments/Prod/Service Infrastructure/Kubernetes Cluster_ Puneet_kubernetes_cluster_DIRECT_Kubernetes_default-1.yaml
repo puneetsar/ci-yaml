@@ -1,0 +1,12 @@
+harnessApiVersion: '1.0'
+type: DIRECT_KUBERNETES
+caCert: safeharness:pEUvbkryQnCBYLssdPuxJg
+clientCert: safeharness:sh4KCBViTmmBaCHD3H3iOA
+clientKey: safeharness:3_NRfD9WQpqsO6ovnWON8Q
+computeProviderName: Puneet_kubernetes_cluster
+computeProviderType: KUBERNETES_CLUSTER
+deploymentType: KUBERNETES
+infraMappingType: DIRECT_KUBERNETES
+namespace: default
+password: safeharness:qWJiABukQOCWVot8_uK1MQ
+serviceName: IIS-docker

@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: ACR
+metadataOnly: false
+registryName: puneetcontainerregistry009
+repositoryName: nginx
+serverName: azure-puneet
+subscriptionId: 12d2db62-5aa9-471d-84bb-faa489b3e319

@@ -1,0 +1,12 @@
+harnessApiVersion: '1.0'
+type: DIRECT_KUBERNETES
+caCert: safeharness:yb-dgZukRiyHl56ZvkfIaw
+clientCert: safeharness:tU50uUqaTx2MAeumMWC_XQ
+clientKey: safeharness:b3Hw-vbwQBO2LLi9hBC8Ig
+computeProviderName: Puneet_kubernetes_cluster
+computeProviderType: KUBERNETES_CLUSTER
+deploymentType: KUBERNETES
+infraMappingType: DIRECT_KUBERNETES
+namespace: default
+password: safeharness:slerK5QKScWc04wDO3JNBA
+serviceName: nginxsvc
