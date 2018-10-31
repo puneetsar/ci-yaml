@@ -1,0 +1,13 @@
+harnessApiVersion: '1.0'
+type: AWS_AMI
+autoScalingGroupName: rushabh-test-autoscaling-grp
+classicLoadBalancers:
+- testlb
+computeProviderName: aws
+computeProviderType: AWS
+deploymentType: AMI
+infraMappingType: AWS_AMI
+region: us-east-1
+serviceName: ami service s4
+targetGroupArns:
+- arn:aws:elasticloadbalancing:us-east-1:830767422336:targetgroup/rsingh/a84f8b484749319e
