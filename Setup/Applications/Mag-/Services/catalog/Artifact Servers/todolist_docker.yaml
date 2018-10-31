@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: JENKINS
+artifactPaths:
+- ''
+jobName: todolist_docker
+metadataOnly: true
+serverName: Harness Jenkins
