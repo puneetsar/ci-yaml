@@ -1,0 +1,12 @@
+harnessApiVersion: '1.0'
+type: DIRECT_KUBERNETES
+caCert: safeharness:AT3l5W7iQQmWO23nXHmBOQ
+clientCert: safeharness:dJ4M8d8GQc2Gg9y4bPpKwA
+clientKey: safeharness:HAc5iQt9SyiMLdFrcwK2TQ
+computeProviderName: ci-delegate
+computeProviderType: KUBERNETES_CLUSTER
+deploymentType: KUBERNETES
+infraMappingType: DIRECT_KUBERNETES
+namespace: default
+password: safeharness:GOk65--QRYmEgO_1Qn8fvg
+serviceName: Docker Todolist

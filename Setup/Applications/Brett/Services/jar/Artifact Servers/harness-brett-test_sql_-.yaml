@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: GCS
+artifactPaths:
+- sql/*
+bucketName: harness-brett-test
+metadataOnly: true
+serverName: harness-exploration-gcs
