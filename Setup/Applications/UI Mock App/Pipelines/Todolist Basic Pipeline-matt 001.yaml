@@ -1,0 +1,14 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+pipelineStages:
+- type: APPROVAL
+  name: Approval 0
+  parallel: true
+- type: ENV_STATE
+  name: deploy 2
+  parallel: false
+  workflowName: Todolist Canary Workflow
+- type: ENV_STATE
+  name: Deployment Step
+  parallel: false
+  workflowName: Todolist Basic Workflow
