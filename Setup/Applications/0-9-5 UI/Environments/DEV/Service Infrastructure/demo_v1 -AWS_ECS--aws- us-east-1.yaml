@@ -1,0 +1,11 @@
+harnessApiVersion: '1.0'
+type: AWS_ECS
+assignPublicIp: false
+cluster: demo_v1
+computeProviderName: h-aws
+computeProviderType: AWS
+deploymentType: ECS
+infraMappingType: AWS_ECS
+launchType: EC2
+region: us-east-1
+serviceName: Docker 1

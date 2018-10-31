@@ -1,0 +1,31 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+description: description
+pipelineStages:
+- type: ENV_STATE
+  name: Step 1
+  parallel: false
+  workflowName: Build Workflow 1
+  workflowVariables:
+  - name: veryVeryVeryLongVariableName
+  - name: v1
+  - name: v2
+- type: ENV_STATE
+  name: Step 2
+  parallel: false
+  workflowName: Canary Workflow
+- type: ENV_STATE
+  name: Basic Worflow Srinivas
+  parallel: false
+  workflowName: Basic Worflow Srinivas
+- type: ENV_STATE
+  name: Step 3
+  parallel: false
+  workflowName: Canary Workflow 2
+- type: APPROVAL
+  name: Approval 4
+  parallel: false
+- type: ENV_STATE
+  name: Basic Workflow - war - matt
+  parallel: false
+  workflowName: Basic Workflow - war - matt

@@ -1,0 +1,25 @@
+harnessApiVersion: '1.0'
+type: ENVIRONMENT
+description: Cloned from environment DEV
+environmentType: NON_PROD
+variableOverrides:
+- name: zzz
+  serviceName: ami
+  value: teere
+  valueType: TEXT
+- name: ss
+  serviceName: ami
+  value: eree
+  valueType: TEXT
+- name: list
+  serviceName: ami
+  value: asdfasdf
+  valueType: TEXT
+- name: tetts
+  serviceName: ami
+  value: asdfasdf
+  valueType: TEXT
+- name: asddf
+  serviceName: ami
+  value: sfsdf
+  valueType: TEXT

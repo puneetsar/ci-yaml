@@ -1,0 +1,9 @@
+harnessApiVersion: '1.0'
+type: ENVIRONMENT
+description: Cloned from environment DEV
+environmentType: NON_PROD
+variableOverrides:
+- name: asddf
+  serviceName: ami
+  value: sfsdf
+  valueType: TEXT

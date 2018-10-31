@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: JENKINS
+artifactPaths:
+- ''
+jobName: delegateci
+metadataOnly: true
+serverName: Harness Jenkins

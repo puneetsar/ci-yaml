@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: ECS
+containerDefinition:
+  commands:
+  - ''
+  logConfiguration: {}
+  name: DEFAULT_NAME
