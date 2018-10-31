@@ -1,0 +1,25 @@
+harnessApiVersion: '1.0'
+type: SERVICE
+artifactType: DOCKER
+configVariables:
+- name: DELEGATE_CHECK_LOCATION
+  value: delegateci.txt
+  valueType: TEXT
+- name: DELEGATE_STORAGE_URL
+  value: http://wingsdelegates.s3-website-us-east-1.amazonaws.com
+  valueType: TEXT
+- name: WATCHER_CHECK_LOCATION
+  value: watcherci.txt
+  valueType: TEXT
+- name: WATCHER_STORAGE_URL
+  value: http://wingswatchers.s3-website-us-east-1.amazonaws.com
+  valueType: TEXT
+- name: MANAGER_HOST_AND_PORT
+  value: https://ci-api.harness.io:443
+  valueType: TEXT
+- name: ACCOUNT_SECRET
+  value: amazonkms:8MTvFw1eTMKWaI56AoePAQ
+  valueType: ENCRYPTED_TEXT
+- name: ACCOUNT_ID
+  value: kmpySmUISimoRrJL6NL73w
+  valueType: TEXT
