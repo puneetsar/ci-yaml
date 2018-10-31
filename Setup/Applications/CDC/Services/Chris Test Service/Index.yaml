@@ -1,0 +1,4 @@
+harnessApiVersion: '1.0'
+type: SERVICE
+artifactType: DOCKER
+description: Chris Docker image test service
