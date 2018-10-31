@@ -1,0 +1,15 @@
+harnessApiVersion: '1.0'
+type: AWS_SSH
+computeProviderName: h-aws
+computeProviderType: AWS
+connectionType: ubuntu
+deploymentType: SSH
+desiredCapacity: 0
+infraMappingType: AWS_SSH
+provisionInstances: false
+region: us-east-1
+serviceName: ServiceWar
+tags:
+- name: User
+  value: KenNg
+usePublicDns: true
