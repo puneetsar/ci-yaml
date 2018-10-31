@@ -1,0 +1,4 @@
+harnessApiVersion: '1.0'
+type: SERVICE
+applicationStack: EchoWebApp_Tomcat_Stack_1518206797134
+artifactType: WAR

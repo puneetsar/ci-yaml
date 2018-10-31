@@ -1,0 +1,4 @@
+harnessApiVersion: '1.0'
+type: SERVICE
+artifactType: AMI
+description: Second instance of AMI

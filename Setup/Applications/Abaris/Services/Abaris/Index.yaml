@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: SERVICE
+artifactType: WAR
+configVariables:
+- name: confi
+  value: var
+  valueType: TEXT
+description: dummy text of the printing and typesetti

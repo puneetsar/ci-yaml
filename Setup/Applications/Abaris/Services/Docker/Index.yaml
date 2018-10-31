@@ -1,0 +1,21 @@
+harnessApiVersion: '1.0'
+type: SERVICE
+artifactType: DOCKER
+configMapYaml: |-
+  apiVersion: v1
+  data:
+    MY_VAR: Hello, friend
+    ONE_HUNDRED: "100"
+    THIRTY: "30"
+    THREE: "3"
+    qa.txt: minVersion 890
+  kind: ConfigMap
+  metadata:
+    creationTimestamp: 2018-03-14T00:59:35Z
+    labels:
+      app: abaris
+      env: gcp
+      revision: "49"
+      service: new-docker
+    name: abaris.new-docker.gcp.49
+    namespace: default

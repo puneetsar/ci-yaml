@@ -1,0 +1,14 @@
+harnessApiVersion: '1.0'
+type: AWS_ECS
+assignPublicIp: false
+cluster: ABfargate
+computeProviderName: aws
+computeProviderType: AWS
+deploymentType: ECS
+infraMappingType: AWS_ECS
+launchType: FARGATE
+region: us-east-1
+securityGroupIds: sg-03eab672
+serviceName: Docker
+subnetIds: subnet-ba8789de
+vpcId: vpc-071ead7c

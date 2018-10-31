@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: SERVICE
+artifactType: DOCKER
+configVariables:
+- name: magvar
+  value: safeharness:3coWHg6JTXW5zBeqFY-zQg
+  valueType: ENCRYPTED_TEXT
+description: jhhkg

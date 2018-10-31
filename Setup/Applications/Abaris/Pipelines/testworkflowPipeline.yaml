@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+description: magdalene's test workflow Pipeline
+pipelineStages:
+- type: ENV_STATE
+  name: Step1
+  parallel: false
+  workflowName: testworkflow
