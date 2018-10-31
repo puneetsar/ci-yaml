@@ -1,0 +1,9 @@
+type: KUBERNETES_CLUSTER
+caCert: safeharness:uc7Q6Ey5RVm8Z5oYCwlLpw
+clientCert: safeharness:SEU8wBDSRnuXNkQ4HnGyJA
+clientKey: safeharness:aGrWcbjjR8iF3CJa_VbOwQ
+clientKeyPassphrase: safeharness:t9PsvEVvS42uUiGgsWzmHA
+delegateName: ci-delegate-helm
+password: safeharness:DufLtduATqW5OKqE65lTVA
+skipValidation: false
+useKubernetesDelegate: true

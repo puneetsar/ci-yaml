@@ -1,0 +1,10 @@
+type: KUBERNETES_CLUSTER
+caCert: amazonkms:g9swfk-4RGGYz5oQdg4HEg
+clientCert: amazonkms:Bn2SCrG8RQGRBHKDS-crmQ
+clientKey: amazonkms:LmTfDiibQjCXUoYf2x9RYg
+clientKeyPassphrase: safeharness:xHS2-zWzTVigFUPbV3pUwQ
+masterUrl: https://puneet-win-acsmgmt.eastus.cloudapp.azure.com
+password: amazonkms:qWsStsnlSL-DaPfhqb8S7g
+skipValidation: false
+useKubernetesDelegate: false
+username: puneet-win-acsmgmt-admin

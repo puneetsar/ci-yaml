@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: BAMBOO
+password: safeharness:26tiLAEsQHWz_Laucf0wLQ
+url: http://ec2-34-205-16-35.compute-1.amazonaws.com:8085/
+username: wingsbuild

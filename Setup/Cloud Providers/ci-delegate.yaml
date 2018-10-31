@@ -1,0 +1,4 @@
+type: KUBERNETES_CLUSTER
+delegateName: ci-delegate
+skipValidation: false
+useKubernetesDelegate: true

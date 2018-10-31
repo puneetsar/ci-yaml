@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: SUMO
+accessId: safeharness:j9vUyU0xRIW-58lPz3mLEw
+accessKey: safeharness:dM4-UL-rT5WjMMUTksG1ew
+sumoUrl: https://api.us2.sumologic.com/api/v1/

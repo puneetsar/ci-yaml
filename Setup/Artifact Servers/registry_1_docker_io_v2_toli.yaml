@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: DOCKER
+password: safeharness:EAp7bLgvRUe548x3HKfGJg
+url: https://registry-1.docker.io/v2/
+username: toli

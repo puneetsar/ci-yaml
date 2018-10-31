@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: DOCKER
+password: amazonkms:BG9TFrm-TxWeL1Xp1Rmm5g
+url: https://registry.hub.docker.com/v2/
+username: wingsplugins

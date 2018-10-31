@@ -1,0 +1,10 @@
+type: KUBERNETES_CLUSTER
+caCert: safeharness:BT5kiI4WSGS7bdo6-fB5jg
+clientCert: amazonkms:AXQeQ9q_T2ePogEDIEDKKw
+clientKey: amazonkms:h_P9b4SGTpOWNYc99uH1mg
+clientKeyPassphrase: safeharness:e7OG4hr7QMyxfM56eyd5xQ
+masterUrl: https://puneet-aks-561a30c0.hcp.eastus.azmk8s.io:443
+password: safeharness:2Hl7CbUPT1eLi6Jn7rGHBw
+skipValidation: false
+useKubernetesDelegate: false
+username: clusterUser_puneet-aks_puneet-aks
