@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: JENKINS
+artifactPaths:
+- ''
+jobName: ciui-cert-renew
+metadataOnly: true
+serverName: Harness Jenkins

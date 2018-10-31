@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: AWS_AWS_LAMBDA
+computeProviderName: aws
+computeProviderType: AWS
+deploymentType: AWS_LAMBDA
+infraMappingType: AWS_AWS_LAMBDA
+region: us-east-1
+role: arn:aws:iam::830767422336:role/aws-opsworks-service-role
+serviceName: LamdaService-clone
+vpcId: vpc-abf611d0

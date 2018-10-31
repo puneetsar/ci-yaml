@@ -1,0 +1,9 @@
+harnessApiVersion: '1.0'
+type: KUBERNETES
+containerDefinition:
+  commands:
+  - asdfsf
+  cpu: 2354
+  logConfiguration: {}
+  memory: 2354
+  name: DEFAULT_NAME

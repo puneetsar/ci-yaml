@@ -1,0 +1,9 @@
+harnessApiVersion: '1.0'
+type: CONFIG_FILE
+checksum: 47e1e5623ef8bc4f586f2bf0a735982b
+checksumType: MD5
+description: filep
+encrypted: false
+fileName: path1
+targetFilePath: path1
+targetToAllEnv: true

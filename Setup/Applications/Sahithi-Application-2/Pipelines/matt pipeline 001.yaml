@@ -1,0 +1,77 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+pipelineStages:
+- type: ENV_STATE
+  name: step1
+  parallel: false
+  workflowName: WorkflowA
+- type: APPROVAL
+  name: Approval 1
+  parallel: false
+- type: ENV_STATE
+  name: '2'
+  parallel: false
+  workflowName: WorkflowA
+- type: APPROVAL
+  name: Approval 3
+  parallel: true
+  properties:
+    timeoutNumHours: 0
+- type: APPROVAL
+  name: Approval 4
+  parallel: true
+- type: APPROVAL
+  name: Approval 5
+  parallel: false
+  properties:
+    timeoutNumHours: 0
+- type: APPROVAL
+  name: Approval 6
+  parallel: false
+  properties:
+    timeoutNumHours: 0
+- type: APPROVAL
+  name: Approval 7
+  parallel: false
+  properties:
+    timeoutNumHours: 0
+- type: APPROVAL
+  name: Approval 8
+  parallel: false
+  properties:
+    timeoutNumHours: 0
+- type: APPROVAL
+  name: Approval 9
+  parallel: false
+  properties:
+    timeoutNumHours: 0
+- type: APPROVAL
+  name: Approval 10
+  parallel: false
+  properties:
+    timeoutNumHours: 0
+- type: APPROVAL
+  name: Approval 11
+  parallel: false
+  properties:
+    timeoutNumHours: 0
+- type: APPROVAL
+  name: Approval 12
+  parallel: false
+  properties:
+    timeoutNumHours: 0
+- type: APPROVAL
+  name: Approval 13
+  parallel: false
+  properties:
+    timeoutNumHours: 0
+- type: ENV_STATE
+  name: SumoLogicWorkflow
+  parallel: false
+  workflowName: SumoLogicWorkflow
+- type: APPROVAL
+  name: Approval 15
+  parallel: false
+- type: APPROVAL
+  name: Approval 16
+  parallel: false

@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: CONFIG_FILE_OVERRIDE
+checksum: 87662220417ed80261af24e4573c63ad
+checksumType: MD5
+encrypted: false
+fileName: dfile1
+targetFilePath: dfile1

@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: AMAZON_S3
+artifactPaths:
+- dev/165b3555e7cb5ff3ed1fa1ccb263d0a847ee4774/codedeploysample.zip
+bucketName: harnessapps
+metadataOnly: true
+serverName: aws

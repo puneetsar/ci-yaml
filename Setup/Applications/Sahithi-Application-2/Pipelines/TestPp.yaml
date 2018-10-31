@@ -1,0 +1,17 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+pipelineStages:
+- type: ENV_STATE
+  name: AutoScalingWrokflow (Workflow Template)
+  parallel: false
+  workflowName: AutoScalingWrokflow
+  workflowVariables:
+  - entityType: ENVIRONMENT
+    name: Environment
+    value: Local
+  - entityType: SERVICE
+    name: Service
+    value: Catlaog
+  - entityType: INFRASTRUCTURE_MAPPING
+    name: ServiceInfra_SSH
+    value: Physical Data Center- physical_data_center -Data Center_SSH--2

@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: ENVIRONMENT
+configMapYamlByServiceTemplateId:
+  Zc2PmjRtRlOQASEkBw5GTA: sdfdsfdsfds
+environmentType: PROD
+helmValueYamlByServiceTemplateId:
+  lhq8o7CrRYSfLoU25lfSQA: dsfdsfds

@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: ECS
+containerDefinition:
+  commands:
+  - fasfd
+  cpu: 345
+  logConfiguration:
+    logDriver: awslogs
+  memory: 345
+  name: DEFAULT_NAME

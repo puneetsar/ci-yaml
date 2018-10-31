@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: CONFIG_FILE
+checksum: b88150eb931da77bf910aeabb8373cd2
+checksumType: MD5
+encrypted: false
+fileName: NEWDoc.txt
+targetFilePath: NEWDoc.txt
+targetToAllEnv: true

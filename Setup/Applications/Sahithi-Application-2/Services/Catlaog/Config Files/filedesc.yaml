@@ -1,0 +1,9 @@
+harnessApiVersion: '1.0'
+type: CONFIG_FILE
+checksum: 3cf578acbabe3ba9d61c2210aecff850
+checksumType: MD5
+description: path2
+encrypted: false
+fileName: filedesc
+targetFilePath: filedesc
+targetToAllEnv: true

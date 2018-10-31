@@ -1,0 +1,16 @@
+harnessApiVersion: '1.0'
+type: AWS_SSH
+computeProviderName: h-aws
+computeProviderType: AWS
+connectionType: RandomTestKey-2
+deploymentType: SSH
+desiredCapacity: 0
+infraMappingType: AWS_SSH
+provisionInstances: false
+region: us-east-1
+securityGroupIds:
+- sg-03eab672
+serviceName: Catlaog
+usePublicDns: false
+vpcs:
+- vpc-551e322d

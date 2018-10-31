@@ -1,0 +1,14 @@
+harnessApiVersion: '1.0'
+type: AWS_ECS
+assignPublicIp: false
+cluster: appd-wingsnfr
+computeProviderName: aws
+computeProviderType: AWS
+deploymentType: ECS
+infraMappingType: AWS_ECS
+launchType: FARGATE
+region: us-east-1
+securityGroupIds: sg-03eab672
+serviceName: AzureService
+subnetIds: subnet-13901b3c,subnet-42ddaf34
+vpcId: vpc-071ead7c

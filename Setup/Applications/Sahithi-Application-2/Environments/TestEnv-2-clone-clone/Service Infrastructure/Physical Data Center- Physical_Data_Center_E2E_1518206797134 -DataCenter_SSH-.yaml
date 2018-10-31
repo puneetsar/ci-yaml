@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: PHYSICAL_DATA_CENTER_SSH
+computeProviderName: Physical_Data_Center_E2E_1518206797134
+computeProviderType: PHYSICAL_DATA_CENTER
+connection: Wings Key
+deploymentType: SSH
+hostNames:
+- localhost
+infraMappingType: PHYSICAL_DATA_CENTER_SSH
+serviceName: warservice-a

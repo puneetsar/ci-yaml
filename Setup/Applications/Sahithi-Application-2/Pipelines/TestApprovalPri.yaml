@@ -1,0 +1,12 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+pipelineStages:
+- type: ENV_STATE
+  name: AWSSHWorkflow
+  parallel: false
+  workflowName: AWSSHWorkflow
+- type: APPROVAL
+  name: Approval 1
+  parallel: false
+  properties:
+    timeoutMillis: 3.5999999999999996

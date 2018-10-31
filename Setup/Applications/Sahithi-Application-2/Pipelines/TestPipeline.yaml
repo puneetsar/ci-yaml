@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+pipelineStages:
+- type: ENV_STATE
+  name: AWSSHWithautoScaling (Workflow Template)
+  parallel: false
+  workflowName: AWSSHWithautoScaling

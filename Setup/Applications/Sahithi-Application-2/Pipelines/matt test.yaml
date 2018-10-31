@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+pipelineStages:
+- type: ENV_STATE
+  name: test
+  parallel: false
+  workflowName: matt HAR-2691 - show node hist

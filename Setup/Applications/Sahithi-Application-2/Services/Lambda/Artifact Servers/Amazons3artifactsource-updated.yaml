@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: AMAZON_S3
+artifactPaths:
+- 2017060Ft3-designer/template1l9g26hq7309oavvu7bu6gk3xr
+bucketName: cf-templates-1ujhxddvxkab7-us-east-1
+metadataOnly: true
+serverName: aws-rushabh

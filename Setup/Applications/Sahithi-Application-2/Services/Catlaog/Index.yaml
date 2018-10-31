@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: SERVICE
+artifactType: WAR
+configVariables:
+- name: TestWorkflow
+  value: amazonkms:JHGx6W9hRuqwS47BrK2DrQ
+  valueType: ENCRYPTED_TEXT

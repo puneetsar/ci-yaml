@@ -1,0 +1,537 @@
+Last login: Tue Feb 20 15:47:17 on ttys002
+-bash: ahithi-macbook-pro.lanilimit: command not found
+hNow using node v8.1.2 (npm v5.0.3)
+~/work/wingsui (HAR-2855) $ history
+    1  git log
+    2  clear
+    3  git push
+    4  git log
+    5  git reset soft --head~4
+    6  git reset soft --HEAD~4
+    7  git push
+    8  history
+    9    git rebase -i HEAD~4
+   10  clear
+   11  git log
+   12  git push
+   13  git reset --soft HEAD~5
+   14  git log
+   15  git push
+   16  git push -f
+   17  clear
+   18  git status
+   19  git log
+   20  git commit -m "fix:  fixed onchange case for partial templatization"
+   21  git push -f
+   22  git log
+   23  git push
+   24  git push
+   25  git log
+   26  git push
+   27  git branch
+   28  git pull
+   29  cd work
+   30  cd wingsui
+   31  git log
+   32  history
+   33  git log
+   34  git reset soft --head~4
+   35  history
+   36   git reset soft --HEAD~4
+   37   git reset soft HEAD~4
+   38   git reset --soft ~ 4
+   39   git reset soft HEAD~4
+   40   git reset --soft HEAD~4
+   41  git log
+   42  git commit -m "fix: refactored and separated the code for verification templatization"
+   43  git push
+   44  git push -f
+   45  git log
+   46  git checkout dev
+   47  git pull
+   48  git branch
+   49  git checkout  HAR-2847-verfication-templatization
+   50  git rebase dev
+   51  clear
+   52  git log
+   53  yarn && yarn run dev
+   54  api:delegate
+   55  clear
+   56  api:delegate
+   57  cd work
+   58  cd portal
+   59  git branch
+   60  git pull
+   61  api:build
+   62  api:rest
+   63  git branch
+   64  git checkout master
+   65  git pull
+   66  git branch
+   67  git checkout jenkins-parameters
+   68  killall -9 java
+   69  api:build
+   70  api:rest
+   71  api:delegate
+   72   cd work
+   73  cd portal
+   74  git pull
+   75  api:build
+   76  api:rest
+   77  clear
+   78  git pull
+   79  api:build
+   80  api:rest
+   81  cd work
+   82  cd wingsui
+   83  git checkout dev
+   84  git pull
+   85  git branch
+   86  git checkout HAR-2922-JenkinsJobParameters
+   87  git rebase dev
+   88  git push
+   89  git push -f
+   90  yarn && yarn run dev
+   91  killall -9 node
+   92  yarn && yarn run dev
+   93  killall -9 node
+   94  yarn && yarn run dev
+   95  killall -9 node
+   96  yarn && yarn run dev
+   97  killall -9 node
+   98  yarn && yarn run dev
+   99  api:delegate
+  100  clear
+  101  api:delegate
+  102  git push
+  103  git push
+  104  git log
+  105  git reset -- soft HEAD~9
+  106  git commit -m "fix: modified jenkins job parameters with api"
+  107  git push -f
+  108  clear
+  109  git checkout dev
+  110  git pull
+  111  clear
+  112  git branch
+  113  git checkout  HAR-2922-JenkinsJobParameters
+  114  git rebase dev
+  115  clear
+  116  git push
+  117  git push -f
+  118  git checkout master
+  119  git checkout 3f28c6be6826c1a324aac0103f7a920ad6583cb3
+  120  git status
+  121  git checkout 3859d1e5e8d272832fcd8e663c398e4adc00d4da
+  122  git checkout master
+  123  git stash
+  124  git checkout master
+  125  git branch
+  126  git checkout dev
+  127  git stash
+  128  git checkout dev
+  129  git pull
+  130  git checkout  HAR-2922-JenkinsJobParameters
+  131  git checkout master
+  132  git pull
+  133  cd work
+  134  cd wingsui
+  135  git branch
+  136  git checkout dev
+  137  git stash
+  138  git pull
+  139  clear
+  140  git branch
+  141  git checkout HAR-2922-JenkinsJobParameters
+  142  git rebase dev
+  143  git push -f
+  144  yarn && yarn run dev
+  145  git checkout dev
+  146  git pull
+  147  killall -9 node
+  148  yarn && yarn run dev
+  149  api:delegate
+  150  cd work
+  151  cd portal
+  152  git branch
+  153  git pull
+  154  clear
+  155  api:build
+  156  api:rest
+  157  git branch
+  158  git checkout  HAR-2922-JenkinsJobParameters
+  159  git stash
+  160  git checkout  HAR-2922-JenkinsJobParameters
+  161  cd work
+  162  cd portal
+  163  git branch
+  164  git pull
+  165  clear
+  166  api:build
+  167  api:rest
+  168  git branch
+  169  killall -9 java
+  170  git checkout  verification-templatize
+  171  git pull
+  172  git checkout master
+  173  git checkout -f master
+  174  git branch -D verification-templatize
+  175  git pull
+  176  git stash
+  177  git pull
+  178  git status
+  179  git reset HEAD rest/src/main/java/software/wings/beans/OrchestrationWorkflow.java
+  180  git pull
+  181  clear
+  182  git branch
+  183  git checkout  verification-templatize
+  184  api:build
+  185  api:rest
+  186  killall -9 java
+  187  killall -9 java
+  188  clear
+  189  git branch
+  190  git checkout master
+  191  git pull
+  192  git checkout jenkins-job-parameters
+  193  git checkout jenkins-job-parameters
+  194  git checkout jenkins-job-parameters
+  195  clear
+  196  git pull
+  197  git branch
+  198  gitclear
+  199  clear
+  200  git branch
+  201  git pull
+  202  clear
+  203  git checkout jenkins-job-paramters
+  204  api:build
+  205  api:rest
+  206  cd work
+  207  cd wingsui
+  208  git branch
+  209  git checkout dev
+  210  git pull
+  211  clear
+  212  git branch
+  213  git checkout HAR-2847-verfication-templatization
+  214  git rebase dev
+  215  git push -f
+  216  yarn && yarn run dev
+  217  killall -9 node
+  218  yarn && yarn run dev
+  219  killall -9 node
+  220  yarn && yarn run dev
+  221  api:delegate
+  222  api:delegate
+  223  clear
+  224  git push
+  225  git log
+  226  git reset --soft HEAD ~ 9
+  227  git reset --soft HEAD~ 9
+  228  git reset --soft HEAD~9
+  229  git commit -m "feat: HAR2922: add customwidget for jenkins jobparameters"
+  230  git push -f
+  231  git log
+  232  git reset --soft HEAD~3
+  233  git commit -m "fix: HAR2922: changes for jenkinsjobparameters"
+  234  git push -f
+  235  git log
+  236  clear
+  237  git checkout dev
+  238  git branch
+  239  git checkout   HAR-2855
+  240  git rebase dev
+  241  git log
+  242  git status
+  243  git stash
+  244  git rebase dev
+  245  clear
+  246  git log
+  247  git reset --soft HEAD~4
+  248  git commit -m "fix: HAR2855: showing confirm dialog box for modal when clicked outside"
+  249  git push -f
+  250  clear
+  251  git branch
+  252  git branch
+  253  git log
+  254  git reset --soft HEAD~3
+  255  git commit -m "feat: HAR2855: showing confirm dialog box for modal when clicked outside"
+  256  git push -f
+  257  git branch
+  258  git checkout dev
+  259  git pull
+  260  git checkout  HAR-2922-JenkinsJobParameters
+  261  npm run storybook
+  262  cd work
+  263  cd
+  264  cd work
+  265  cd wingsui
+  266  yarn && yarn run dev
+  267  api:delegate
+  268  cd work
+  269  cd portal
+  270  git pull
+  271  clear
+  272  api:build
+  273  api:rest
+  274  api:delegate
+  275  npm run test
+  276  npm run test
+  277  yarn test
+  278  yarn 
+  279  yarn
+  280  yarn run test
+  281  rm -rf node_modules/
+  282  yarn; yarn test
+  283  git push
+  284  git push --set-upstream origin feature-HAR-3109-Azure
+  285  git checkout master
+  286  git pull
+  287  git pull
+  288  git branch
+  289  git checkout fix-HAR-3187
+  290  git checkout -b fix-HAR-3187
+  291  npm run test:clean;
+  292  npm run test:all;
+  293  git branch
+  294  git checkout HAR-2922-JenkinsJobParameters
+  295  git log
+  296  git push -f
+  297  git checkout -b fix-HAR-3187
+  298  git checkout  fix-HAR-3187
+  299  git log
+  300  git push
+  301      git push --set-upstream origin fix-HAR-3187
+  302  git checkout HAR-2922-JenkinsJobParameters
+  303  git checkout master
+  304  git pull
+  305  git checkout HAR-2922-JenkinsJobParameters
+  306  git rebase master
+  307  git log
+  308  npm run test:clean
+  309  npm run test:all
+  310  clear
+  311  npm run test:clean;
+  312  yarn test
+  313  git log
+  314  clear
+  315  git brnch
+  316  git branch
+  317  git checkout  feature-HAR-3109-Azure
+  318  git log
+  319  clear
+  320  killall -9 node
+  321  killall -9 node
+  322  yarn && yarn run dev
+  323  cd work
+  324  cd portal
+  325  git checkout master
+  326  git pull
+  327  clear
+  328  api:build
+  329  api:rest
+  330  git log
+  331  git reset --soft HEAD~2
+  332  git commit -m "feat: HAR2855: showing confirm dialog box for modal when clicked outside"
+  333  git push -f
+  334  git checkout master
+  335  git pull
+  336  clear
+  337  git branch
+  338  git checkout feature-HAR-3061
+  339  git checkout -b feature-HAR-3061
+  340  git log
+  341  git push
+  342  git push --set-upstream origin feature-HAR-3061
+  343  clear
+  344  git checkout master
+  345  git pull
+  346  git checkout feature-HAR-3109-Azure
+  347  git checkout -b feature-HAR-3109-Azure
+  348  clear
+  349  git branch
+  350  git log
+  351  cd work
+  352  cd wingsui
+  353  git checkout dev
+  354  git branch
+  355  git checkout  feature-HAR-3109-Azure
+  356  yarn && yarn run dev
+  357  cd work
+  358  cd portal
+  359  git pull
+  360  api:build
+  361  api:rest
+  362  api:delegate
+  363  git push
+  364  cd wingsui
+  365  cd work
+  366  cd wingsui
+  367  cd ../../work/wingsui
+  368  yarn && yarn run dev
+  369  mvn test -pl rest -Dtest=software.wings.integration.DataGenUtil
+  370  api:delegate
+  371  cd work
+  372  cd portal
+  373  git pull
+  374  api:build
+  375  api:rest
+  376  cd work
+  377  cd portal
+  378  git pull
+  379  api:build
+  380  api:rest
+  381  api:delegate
+  382  cd work
+  383  cd wingsui
+  384  git pull
+  385  git branch
+  386  git pull
+  387  git checkout HAR-2855
+  388  git rebase master
+  389  git stash
+  390  git rebase master
+  391  git log
+  392  yarn && yarn run dev
+  393  git branch
+  394  git checkout master
+  395  git pull
+  396  git branch
+  397  git checkout -b quick-wins-jenkinsparameters
+  398  git checkout -b quick-wins-jenkinsparameters
+  399  git push
+  400  git push --set-upstream origin quick-wins-jenkinsparameters
+  401  clear
+  402  git branch
+  403  git checkout master
+  404  git pull
+  405  clear
+  406  git branch
+  407  git checkout HAR-2855
+  408  git rebase master
+  409  clear
+  410  git stash
+  411  git checkout master
+  412  git stash
+  413  git rebase --abort
+  414  clear
+  415  git log
+  416  git show ed0fd29efe9eda6ee3c3c772de010bbb99b4aba5
+  417  git checkout master
+  418  git pull
+  419  cd work
+  420  cd wingsui
+  421  git branch
+  422  git pull
+  423  clear
+  424  git checkout -b quick-wins-feb20
+  425  yarn && yarn run dev
+  426  rm -rf node_modules/
+  427  yarn && yarn run dev
+  428  killall -9 node
+  429  yarn && yarn run dev
+  430  killall -9 node
+  431  rm -rf node_modules/
+  432  yarn && yarn run dev
+  433  git branch
+  434  node -v
+  435  yarn
+  436  yarn && yarn run dev
+  437  yarn && yarn run dev
+  438  killall -9 node
+  439  yarn && yarn run dev
+  440  killall -9 node
+  441  rm -rf node_modules/
+  442  yarn && yarn run dev
+  443  killall -9 node
+  444  yarn && yarn run dev
+  445  killall -9 node
+  446  rm -rf node_modules/
+  447  yarn && yarn run dev
+  448  git log
+  449  git checkout master
+  450  git pull
+  451  clear
+  452  git branch
+  453  git checkout HAR-2855
+  454  git rebase master
+  455  git log
+  456  rm -rf node_modules/
+  457  yarn && yarn run dev
+  458  cd work
+  459  cd portal
+  460  git pull
+  461  api:build
+  462  api:rest
+  463  api:delegate
+  464  git branch
+  465  git push
+  466  git reset -- src/server/views/index.tpl.html 
+  467  git add -u
+  468  git reset -- src/server/views/index.tpl.html 
+  469  git push'
+  470  git push
+  471  cd work
+  472  cd wingsui
+  473  yarn && yarn run dev
+  474  killall -9 node
+  475  yarn && yarn run dev
+  476  node -v
+  477  git branch
+  478  git checkout   HAR-2855
+  479  git stash
+  480  git checkout   HAR-2855
+  481  yarn && yarn run dev
+  482  yarn && yarn run dev
+  483  killall -9 node
+  484  yarn && yarn run dev
+  485  yarn && yarn run dev
+  486  nano src/server/views/index.tpl.html 
+  487  nano src/server/views/index.tpl.html 
+  488  yarn && yarn run dev
+  489  api:delegate
+  490  cd work
+  491  cd portal
+  492  git branch
+  493  git pull
+  494  api:build
+  495  api:rest
+  496  history
+~/work/wingsui (HAR-2855) $ nano src/server/views/index.tpl.html
+
+  GNU nano 2.0.6                                 File: src/server/views/index.tpl.html                                                              Modified  
+
+  <link rel="stylesheet" type="text/css" href="/css/blueprint.css">
+  <link rel="stylesheet" type="text/css" href="/css/blueprint-table.css">
+  <link rel="stylesheet" type="text/css" href="/css/blueprint-datetime.css">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/AdminLTE.css">
+
+  <!-- JSPlumb -->
+  <link rel="stylesheet" href="/css/jsplumb/jsPlumbToolkit-defaults.css">
+  <!--<link rel="stylesheet" type="text/css" href="/css/wings-all.css">-->
+
+  <link rel="stylesheet" type="text/css" href="/main.css">
+
+  <script type="text/javascript" src="/libs/cron-ui.js"></script>
+
+  <script>
+    /* eslint-disable */
+    window.App = {{{ i18nDataString }}}
+  </script>
+
+  <script type="text/javascript">
+    var ANALYTICS_ENABLED = false
+    if (ANALYTICS_ENABLED) {
+      (function (e, t) {
+        var n = e.amplitude || { _q: [], _iq: {} }; var r = t.createElement("script"); r.type = "text/javascript";
+        r.async = true; r.src = "https://d24n15hnbwhuhn.cloudfront.net/libs/amplitude-3.0.1-min.gz.js";
+        r.onload = function () { e.amplitude.runQueuedFunctions() }; var i = t.getElementsByTagName("script")[0];
+        i.parentNode.insertBefore(r, i); function s(e, t) {
+          e.prototype[t] = function () {
+            this._q.push([t].concat(Array.prototype.slice.call(arguments, 0)));
+            return this
+                                                                     [ Unknown Command ]
+^G Get Help               ^O WriteOut               ^R Read File              ^Y Prev Page              ^K Cut Text               ^C Cur Pos
+^X Exit                   ^J Justify                ^W Where Is               ^V Next Page              ^U UnCut Text             ^T To Spell

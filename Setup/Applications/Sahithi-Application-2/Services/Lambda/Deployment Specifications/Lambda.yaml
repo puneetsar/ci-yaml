@@ -1,0 +1,12 @@
+harnessApiVersion: '1.0'
+type: AWS_LAMBDA
+defaults:
+  memorySize: 128
+  runtime: nodejs6.10
+  timeout: 3
+functions:
+- functionName: ${app.name}_${service.name}_${env.name} <function-name>
+  handler: handler-1
+  memorySize: 128
+  runtime: nodejs6.10
+  timeout: 3

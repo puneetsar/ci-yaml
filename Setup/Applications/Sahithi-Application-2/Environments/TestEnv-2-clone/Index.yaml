@@ -1,0 +1,4 @@
+harnessApiVersion: '1.0'
+type: ENVIRONMENT
+description: Cloned from environment TestEnv-2
+environmentType: PROD

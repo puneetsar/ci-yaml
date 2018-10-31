@@ -1,0 +1,15 @@
+harnessApiVersion: '1.0'
+type: AWS_AWS_LAMBDA
+computeProviderName: h-aws
+computeProviderType: AWS
+deploymentType: AWS_LAMBDA
+infraMappingType: AWS_AWS_LAMBDA
+region: us-east-1
+role: arn:aws:iam::830767422336:role/BaseIAMRole
+securityGroupIds:
+- sg-03eab672
+- sg-130de064
+serviceName: Lambda
+subnetIds:
+- subnet-9725a6bd
+vpcId: vpc-551e322d

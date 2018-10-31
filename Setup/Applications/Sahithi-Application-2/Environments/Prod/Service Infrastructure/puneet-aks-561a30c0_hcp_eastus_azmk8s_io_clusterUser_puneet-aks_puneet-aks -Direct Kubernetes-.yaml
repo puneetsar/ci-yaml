@@ -1,0 +1,14 @@
+harnessApiVersion: '1.0'
+type: DIRECT_KUBERNETES
+caCert: safeharness:iOdbQxILTLqHHKgPsfhEDQ
+clientCert: amazonkms:Ok2sVcNOTBayvbz9bMe7lg
+clientKey: amazonkms:MvuBCbx9TDiQ-WrfYL3-nA
+computeProviderName: puneet_aks_561a30c0_hcp_-fj18-0q7S9OTWIGgSQrdYw-Migrated-CloudProvider
+computeProviderType: KUBERNETES_CLUSTER
+deploymentType: KUBERNETES
+infraMappingType: DIRECT_KUBERNETES
+masterUrl: https://puneet-aks-561a30c0.hcp.eastus.azmk8s.io:443
+namespace: default
+password: safeharness:fll0ZdlhRzeLf0nx7MR4WA
+serviceName: Docker
+username: clusterUser_puneet-aks_puneet-aks

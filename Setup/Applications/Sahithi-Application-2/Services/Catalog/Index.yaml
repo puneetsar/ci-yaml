@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: SERVICE
+artifactType: WAR
+configVariables:
+- name: TestApp
+  value: amazonkms:8MTvFw1eTMKWaI56AoePAQ
+  valueType: ENCRYPTED_TEXT
+- name: Test
+  value: testadsfds37462378468237
+  valueType: TEXT
