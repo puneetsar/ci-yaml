@@ -4,6 +4,5 @@ containerDefinition:
   commands:
   - ''
   cpu: 1
-  logConfiguration: {}
   memory: 750
   name: DEFAULT_NAME
