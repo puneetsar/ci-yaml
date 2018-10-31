@@ -1,0 +1,17 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+pipelineStages:
+- type: APPROVAL
+  name: Approval 0
+  parallel: false
+- type: APPROVAL
+  name: Approval 1
+  parallel: false
+- type: ENV_STATE
+  name: stepp
+  parallel: false
+  workflowName: deployToGCP
+- type: ENV_STATE
+  name: stepp
+  parallel: false
+  workflowName: deployWar

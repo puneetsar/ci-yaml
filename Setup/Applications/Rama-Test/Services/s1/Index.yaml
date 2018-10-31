@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: SERVICE
+artifactType: DOCKER
+configVariables:
+- name: var2
+  value: $var2
+  valueType: TEXT
+- name: var1
+  value: ${app.name}
+  valueType: TEXT

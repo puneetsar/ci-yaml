@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: AMAZON_S3
+artifactPaths:
+- apps/math/11/math.zip
+bucketName: harness-functions
+metadataOnly: true
+serverName: aws

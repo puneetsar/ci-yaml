@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: SERVICE
+artifactType: AMI
+configVariables:
+- name: abc
+  value: ${app.name}
+  valueType: TEXT
