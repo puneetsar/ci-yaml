@@ -1,0 +1,14 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+pipelineStages:
+- type: ENV_STATE
+  name: WORKFLOWWithTemplateVar (Workflow Template)
+  parallel: false
+  workflowName: WORKFLOWWithTemplateVar
+  workflowVariables:
+  - entityType: NEWRELIC_CONFIGID
+    name: NewRelic_Server
+    value: 7qONXZXDTweKPOY6iV0n0g
+  - entityType: NEWRELIC_APPID
+    name: NewRelic_Application
+    value: '56513368'

@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: SERVICE
+artifactType: WAR
+configVariables:
+- name: Abc
+  value: '12'
+  valueType: TEXT
+- name: TestVar
+  value: '100'
+  valueType: TEXT

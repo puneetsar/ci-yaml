@@ -1,0 +1,19 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+pipelineStages:
+- type: ENV_STATE
+  name: RandomDocker (Incomplete)
+  parallel: false
+  workflowName: RandomDocker
+- type: ENV_STATE
+  name: TestWorkflow
+  parallel: false
+  workflowName: TestWorkflow
+- type: ENV_STATE
+  name: PartialAppDTemplateapp (Workflow Template)
+  parallel: false
+  workflowName: PartialAppDTemplateapp
+  workflowVariables:
+  - entityType: APPDYNAMICS_TIERID
+    name: AppDynamics_Tier
+    value: '51949'

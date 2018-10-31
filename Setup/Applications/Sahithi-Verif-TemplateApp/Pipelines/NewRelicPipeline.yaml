@@ -1,0 +1,14 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+pipelineStages:
+- type: ENV_STATE
+  name: step1
+  parallel: false
+  workflowName: PartialAppDOnlyAppAndtierApp
+  workflowVariables:
+  - entityType: APPDYNAMICS_TIERID
+    name: AppDynamics_Tier
+    value: '51949'
+  - entityType: APPDYNAMICS_APPID
+    name: AppDynamics_Application
+    value: '31583'

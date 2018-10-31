@@ -1,0 +1,35 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+pipelineStages:
+- type: ENV_STATE
+  name: step1
+  parallel: false
+  workflowName: TestWorkflow
+- type: ENV_STATE
+  name: step2
+  parallel: false
+  workflowName: RandomDocker
+  workflowVariables:
+  - entityType: ENVIRONMENT
+    name: Environment
+    value: LocaL
+  - entityType: SERVICE
+    name: Service
+    value: Docker
+  - entityType: INFRASTRUCTURE_MAPPING
+    name: ServiceInfra_ECS
+    value: demo_v1 -AWS_ECS--Amazon Web Services- aws- us-east-1
+- type: ENV_STATE
+  name: ste1
+  parallel: false
+  workflowName: AppDTemplateApp
+  workflowVariables:
+  - entityType: APPDYNAMICS_CONFIGID
+    name: AppDynamics_Server
+    value: gxaomTd1Q6-9o8mmdx4dgA
+  - entityType: APPDYNAMICS_TIERID
+    name: AppDynamics_Tier
+    value: '183330'
+  - entityType: APPDYNAMICS_APPID
+    name: AppDynamics_Application
+    value: '30963'

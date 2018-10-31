@@ -1,0 +1,12 @@
+harnessApiVersion: '1.0'
+type: AWS_SSH
+computeProviderName: h-aws
+computeProviderType: AWS
+connectionType: Physical_Data_Center_E2E_SSH_1518206797134
+deploymentType: SSH
+desiredCapacity: 0
+infraMappingType: AWS_SSH
+provisionInstances: false
+region: us-east-1
+serviceName: War
+usePublicDns: false
