@@ -1,0 +1,11 @@
+harnessApiVersion: '1.0'
+type: OTHER
+commandUnitType: COMMAND
+commandUnits:
+- command: asdasdsada
+  commandUnitType: EXEC
+  deploymentType: SSH
+  name: Exec-0
+  scriptType: BASH
+  workingDirectory: ${WINGS_RUNTIME_PATH}
+targetToAllEnv: true

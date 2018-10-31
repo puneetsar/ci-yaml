@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: JENKINS
+artifactPaths:
+- codedeploysample.zip
+jobName: todolist_promot
+metadataOnly: false
+serverName: Harness Jenkins
