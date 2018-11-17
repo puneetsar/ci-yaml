@@ -1,12 +1,8 @@
 harnessApiVersion: '1.0'
 type: DIRECT_KUBERNETES
-caCert: safeharness:IJwo5HaETtu6OmVOoG17_w
-clientCert: safeharness:ShAHtm58SnSqhA7OZgvhBQ
-clientKey: safeharness:vDcQGQIjRx25a4Nv8Z6M6w
 computeProviderName: kubernetes_cluster_puneet_cert
 computeProviderType: KUBERNETES_CLUSTER
 deploymentType: KUBERNETES
 infraMappingType: DIRECT_KUBERNETES
 namespace: default
-password: safeharness:HZ7vTyiuSFybJekoCA3Bng
 serviceName: IIS-docker
