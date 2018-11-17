@@ -1,12 +1,8 @@
 harnessApiVersion: '1.0'
 type: DIRECT_KUBERNETES
-caCert: safeharness:3Uz8yWiyTqm_r8dydy-kMg
-clientCert: safeharness:r76WfUrEQ0upcn8Kb0uyWA
-clientKey: safeharness:UuL0A3xATf-q2ClyEamQig
 computeProviderName: kubernetes_cluster
 computeProviderType: KUBERNETES_CLUSTER
 deploymentType: KUBERNETES
 infraMappingType: DIRECT_KUBERNETES
 namespace: default
-password: safeharness:yWkHzuQRT8SNqhrwutEp3w
 serviceName: Docker-Test
