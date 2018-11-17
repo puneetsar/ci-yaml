@@ -1,12 +1,8 @@
 harnessApiVersion: '1.0'
 type: DIRECT_KUBERNETES
-caCert: safeharness:2T8SuBmsT9CFFJE_XT3ykQ
-clientCert: safeharness:_oLMX8ZDTfioNOt9v84WgA
-clientKey: safeharness:y7VUvBf9SzW5ze0rsVuSHw
 computeProviderName: kubernetes_cluster
 computeProviderType: KUBERNETES_CLUSTER
 deploymentType: KUBERNETES
 infraMappingType: DIRECT_KUBERNETES
 namespace: default12
-password: safeharness:rUMDMDvLQxiE2gbOwr9AWA
 serviceName: AzureService

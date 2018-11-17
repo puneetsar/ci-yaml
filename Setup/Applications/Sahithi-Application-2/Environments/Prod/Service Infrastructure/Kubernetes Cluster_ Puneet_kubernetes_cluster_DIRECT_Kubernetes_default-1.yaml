@@ -1,12 +1,8 @@
 harnessApiVersion: '1.0'
 type: DIRECT_KUBERNETES
-caCert: safeharness:Cta7MsJoQBiWkSR94zVDLw
-clientCert: safeharness:FI-YDKi6R2mge-SP9st0VA
-clientKey: safeharness:SvphBcEiR16EwWu9Bs897Q
 computeProviderName: Puneet_kubernetes_cluster
 computeProviderType: KUBERNETES_CLUSTER
 deploymentType: KUBERNETES
 infraMappingType: DIRECT_KUBERNETES
 namespace: default
-password: safeharness:DZ1WTF4qROOpGR0989rhhQ
 serviceName: Docker-1
