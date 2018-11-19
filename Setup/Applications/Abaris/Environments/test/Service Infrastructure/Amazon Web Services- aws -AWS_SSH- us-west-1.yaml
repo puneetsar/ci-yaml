@@ -8,11 +8,7 @@ desiredCapacity: 0
 infraMappingType: AWS_SSH
 provisionInstances: false
 region: us-west-1
-securityGroupIds:
-- sg-21821758
 serviceName: WarService-Test
-subnetIds:
-- subnet-31562168
 usePublicDns: false
 vpcs:
 - vpc-01135664
