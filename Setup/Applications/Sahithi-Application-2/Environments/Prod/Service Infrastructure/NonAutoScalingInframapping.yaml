@@ -8,8 +8,6 @@ desiredCapacity: 0
 infraMappingType: AWS_SSH
 provisionInstances: false
 region: us-east-1
-securityGroupIds:
-- sg-03eab672
 serviceName: Catlaog
 usePublicDns: false
 vpcs:
